@@ -1,0 +1,354 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+header {
+    background-image: url("images/header.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    padding: 50px;
+}
+
+.heading-style {
+    color: #26C39E;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.paragraph-style {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 32px;
+}
+
+.logo {
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-a-style {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.navbar-a-style:hover {
+     color: #26C39E!important;
+    font-weight: bold!important;
+}
+
+.navbar-primary {
+    padding-top: 30px;
+}
+
+@media screen and (min-width: 1900px) {
+    .navbar-primary {
+        margin-left: 39%;
+    }
+}
+
+.social-padding {
+    padding-right: 20px;
+}
+
+.sites-music-style {
+    margin: 14px;
+    width: 7%;
+}
+
+.h6-title {
+    padding: 30px 0;
+    color: #370C3B;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+}
+
+.about-paragraph {
+    color: #2A2A2A;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+.releases-img {
+    width: 218px;
+    height: 214px;
+    padding: 7px;
+    margin: auto;
+}
+
+.button-style {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    background-color: #F72A98;
+    overflow: visible;
+    padding: 13px 35px;
+}
+
+.button-style:hover {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 992px) {
+    .button-style {
+        padding: 20px 74px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .releases-img {
+        width: 118px;
+        height: 118px;
+    }
+}
+
+.div-listen-all-style {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.numbers {
+    color: #370C3B;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 64px;
+    line-height: 78px;
+    padding: 60px;
+    position: relative;
+}
+
+.nbr-1::after {
+    content: "RELEASES";
+    display: block;
+    color: #434343;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+}
+
+.nbr-2::after {
+    content: "ARTISTS & DJs";
+    display: block;
+    color: #434343;
+    font-family: "Century Gothic" sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+.nbr-3::after {
+    content: "LISTENERS";
+    display: block;
+    color: #434343;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+.nbr-4::after {
+    content: "PODCASTS";
+    display: block;
+    color: #434343;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+}
+
+.nbr-5::after  {
+    content: "EVENTS";
+    display: block;
+    color: #434343;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+}
+
+.nbr-2:before {
+    content: "+";
+    color: #F82298;
+    font-family: "Century Gothic", sans-serif ;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 39px;
+    position: absolute;
+    left: 170px;
+}
+
+.nbr-1:before, .nbr-4:before, .nbr-5:before {
+    content: "+";
+    color: #F82298;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 39px;
+    position: absolute;
+    left: 133px;
+}
+
+.nbr-3:before {
+    content: "k";
+    color: #F8289A;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 32px;
+    position: absolute;
+    left: 170px;
+}
+
+.fa-icon {
+    color: #360C3A;
+    font-size: 80px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+}
+
+.facebook-icon {
+    padding: 49px 75px;
+}
+
+.end-bar-p {
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.end-bar-span {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.padding-span {
+    padding: 10px;
+}
+
+.embeed-div-style {
+    padding: 50px;
+}
+
+.section-embeed {
+    background-color: #F7F7F7;
+    padding-top: 0;
+}
+.instagram-icon {
+    padding: 49px 61px;
+}
+
+.youtube-icon {
+    padding: 49px 52px;
+}
+
+.soundcloud-icon {
+    padding: 49px 47px;
+}
+
+.twitter-icon {
+    padding: 49px 57px;
+}
+
+.show-hide {
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    list-style: none;
+    height: auto;
+    padding: 7px;
+}
+.show-hide > li {
+    padding: 14px;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e589a+0,2a8ad8+29,207bca+70,7ebae8+100 */
+    background: rgb(30,88,154); /* Old browsers */
+    background: -moz-linear-gradient(to right bottom, rgba(30,88,154,-0.5) 0%, rgba(0,0,0,0.8) 29%, rgba(0,0,0,0.8) 70%, rgba(126,186,232,0.5) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to right bottom, rgba(30,88,154,0.5) 0%,rgba(0,0,0,0.8) 29%,rgba(0,0,0,0.8) 70%,rgba(126,186,232,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right bottom, rgba(30,88,154,-0.5) 0%,rgba(0,0,0,0.8) 29%,rgba(0,0,0,0.8) 70%,rgba(126,186,232,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e589a', endColorstr='#7ebae8',GradientType=0 ); /* IE6-9 */
+}
+.show-hide > li > a {
+    color: white;
+    font-weight: 600;
+}
+.hidden{
+    display: none;
+}
+.relative {
+    position: relative;
+}
+
+.hover-opacity {
+    opacity: 0.1;
+}
+
+.ul-block {
+    display: block;
+    left: 0;
+}
+
+hr {
+    width: 320px;    ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+@media screen and (min-width: 992px) {
+    .media-a {
+        padding-top: 50px;
+    }
+    .media-b {
+        margin-left: -43px;
+    }
+    .media-c {
+        margin-left: 15px;
+    }
+}
