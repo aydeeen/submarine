@@ -22,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="393">
               <caret line="351" column="59" lean-forward="true" selection-start-line="351" selection-start-column="59" selection-end-line="351" selection-end-column="59" />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="593" />
     <option name="y" value="22" />
     <option name="width" value="847" />
@@ -149,15 +149,15 @@
       <workItem from="1550849131609" duration="352000" />
       <workItem from="1550883739840" duration="9299000" />
       <workItem from="1550929088847" duration="419000" />
-      <workItem from="1550957298001" duration="1577000" />
+      <workItem from="1550957298001" duration="2108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104028000" />
+    <option name="totallyTimeSpent" value="104559000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14837153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -230,7 +230,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="393">
           <caret line="351" column="59" lean-forward="true" selection-start-line="351" selection-start-column="59" selection-end-line="351" selection-end-column="59" />
         </state>
       </provider>
