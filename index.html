@@ -52,7 +52,7 @@
                 </li>
             </ul>
         </div>
-        <div class="d-none d-lg-block">
+        <div id="icon-filter" class="d-none d-lg-block">
             <a class="social-padding nav-item" href="#"><img src="images/fb.svg" alt="facebook"></a>
             <a class="social-padding nav-item" href="#"><img src="images/instagram.svg" alt="instagram"></a>
             <a class="social-padding nav-item" href="#"><img src="images/yt.svg" alt="youtube"></a>
@@ -342,11 +342,14 @@
 <section style="background-color: #360C3A;  ">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-4 text-center media-a d-block d-lg-none">
+            <div class="col-12 col-lg-4 text-center d-block d-lg-none" style="margin-left: 10px">
                 <a class="social-padding nav-item" href="#"><img src="images/fb.svg" alt="facebook"></a>
                 <a class="social-padding nav-item" href="#"><img src="images/instagram.svg" alt="instagram"></a>
                 <a class="social-padding nav-item" href="#"><img src="images/yt.svg" alt="youtube"></a>
                 <a class="social-padding nav-item" href="#"><img src="images/soundcloud.svg" alt="soundcloud"></a>
+            </div>
+            <div class="col-12 col-lg-4 end-bar-p media-a d-none d-lg-block">
+                <p>Submarine Vibes, 2019</p>
             </div>
             <hr class="d-block d-lg-none">
             <div class="col-12 col-lg-4 end-bar-p media-b">
@@ -373,11 +376,11 @@
                 $("nav#nav").css("background-color", "white");
                 $(".navbar-primary a").css("color", "black");
                 $(".navbar-toggler").css("background-color", "#26C39E");
-                $(".filter").css("filter", "grayscale(100%) brightness(20%) contrast(2)");
+                $("#icon-filter").css("filter", "grayscale(100%) brightness(20%) contrast(2)");
             } else {
                 $("nav#nav").css("background-color", "transparent");
                 $(".navbar-primary a").css("color", "white");
-                $(".filter").css("filter", "none");
+                $("#icon-filter").css("filter", "none");
             }
         })
     })
